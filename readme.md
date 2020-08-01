@@ -1,4 +1,8 @@
-# Paranoid Android #
+# AOSPA - Derped #
+
+DerpFest featureset on AOSPA ROM base.
+
+Last rebased on AOSPA repos as of 20200802 1839 CET.
 
 ## Setting up your machine ##
 
@@ -41,7 +45,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b quartz
+$ repo init -u https://github.com/aospa-op5t-derp/manifest -b quartz
 ```
 
 ### Downloading the source tree ###

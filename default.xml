@@ -10,9 +10,18 @@
            fetch="ssh://git@git.aospa.co/AOSPA" />
 
   <remote  name="aospa"
-           fetch=".."
+           fetch="https://github.com"
            review="gerrit.aospa.co"
            revision="quartz" />
+
+  <!-- Change "fetch" to "https://github.com/aospa-op5t-derp" -->
+  <remote  name="aospa-derp"
+           fetch="https://github.com/aospa-op5t-derp"
+           revision="quartz"/>
+
+  <remote  name="syberia-bb"
+           fetch="https://bitbucket.org/syberia-project"
+           revision="refs/heads/10.0" />
 
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la"
@@ -861,5 +870,8 @@
 
   <!-- Paranoid Android additions -->
   <include name="manifests/aospa.xml"/>
+
+  <!-- Derp additions -->
+  <include name="manifests/aospa-derp.xml"/>
 
 </manifest>
